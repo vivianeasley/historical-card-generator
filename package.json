@@ -1,0 +1,20 @@
+{
+  "name": "card-generator-base",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@json-editor/json-editor": "^2.9.1",
+    "uhtml": "^3.1.0",
+    "window-async-local-storage": "^1.0.1",
+    "zustand": "^4.3.8"
+  }
+}

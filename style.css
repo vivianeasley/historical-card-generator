@@ -1,0 +1,110 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.area {
+  padding: 15px;
+  margin: 20px 0px;
+  background-color: #f1f1f1;
+}
+
+.controls-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Start card styles */
+
+.card-wrapper {
+  width: 350px;
+  height: 475px;
+  background-color: grey;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  position: relative;
+  font-size: 13px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.card-border {
+  border: 2px solid #fff;
+    position: absolute;
+    top: 25px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 0px 0px rgba(176,176,176,0.75);
+}
+
+.card-no-border {
+    position: absolute;
+    top: 25px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 8px;
+}
+
+
+.card-content-wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  line-height: 14px;
+}
+
+.card-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 14px;
+  padding: 9px;
+  max-width: 130px;
+  margin: auto;
+  background-color: #158cba;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 9px 9px 0px 0px rgba(0,177,255,0.21);
+  color: #fff
+}
+
+.card-name {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 9px;
+  text-align: center;
+}
+
+
+.card-text {
+  text-align: left;
+  padding: 12px 14px;
+  background-color: white;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 8px 8px 0px 0px rgba(176,176,176,0.75);
+}
+
+/* End card styles */
